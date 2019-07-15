@@ -1,7 +1,7 @@
-name: STRINGS.WORLDS.FOREST_DEFAULT.NAME
-description: STRINGS.WORLDS.FOREST_DEFAULT.DESCRIPTION
+name: Hirise
+description: Thin on challenge but tall on possibilities, this slice of life world provides the perfect test platform for exploring travel time optimizations.
 spriteName: Asteroid_forest
-coordinatePrefix: HIRISE-A
+coordinatePrefix: TWR-F
 difficulty: 2
 tier: 1
 
