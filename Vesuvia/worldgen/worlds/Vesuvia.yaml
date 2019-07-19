@@ -1,5 +1,5 @@
-name: STRINGS.WORLDS.VESUVIA.NAME
-description: STRINGS.WORLDS.VESUVIA.DESCRIPTION
+name: Vesuvia # STRINGS.WORLDS.VESUVIA.NAME
+description: "A location rife with molten lava pockets and intense heat, lacking most natural insulating terrain.\n\n<smallcaps>You will need to hustle to beat the heat.</smallcaps>\n\n" #STRINGS.WORLDS.VESUVIA.DESCRIPTION
 spriteName: Asteroid_volcanic
 coordinatePrefix: LVA-FLR
 difficulty: 5
