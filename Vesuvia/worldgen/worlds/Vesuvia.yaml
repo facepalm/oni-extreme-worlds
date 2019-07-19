@@ -1,9 +1,11 @@
-name: Vesuvia
-description: Volcanea without abyssalite.  Get ready to handle some heat.
+name: STRINGS.WORLDS.VESUVIA.NAME
+description: STRINGS.WORLDS.VESUVIA.DESCRIPTION
 spriteName: Asteroid_volcanic
 coordinatePrefix: LVA-FLR
 difficulty: 5
 tier: 2
+
+# good start: LVA-FLR-1278324398-0
 
 worldsize:
   X: 256
@@ -14,9 +16,9 @@ layoutMethod: PowerTree # Note: We need to add weights to the items in the layer
 # List all the zone files to load
 subworldFiles:
   - name: subworlds/magma/SandstoneStart
-  - name: subworlds/sandstone/SandstoneMiniMetal
-  - name: subworlds/sandstone/SandstoneMiniWater
-  - name: subworlds/sandstone/Sandstone
+  - name: subworlds/magma/SandstoneMiniMetal
+  - name: subworlds/magma/SandstoneMiniWater
+  - name: subworlds/magma/Sandstone
   - name: subworlds/magma/HotMarsh
   - name: subworlds/magma/Jungle
   - name: subworlds/magma/Frozen
@@ -51,8 +53,8 @@ unknownCellsAllowedSubworlds:
     maxDistance: 1
     command: Replace
     subworldNames:
-      - subworlds/sandstone/SandstoneMiniMetal
-      - subworlds/sandstone/SandstoneMiniWater
+      - subworlds/magma/SandstoneMiniMetal
+      - subworlds/magma/SandstoneMiniWater
   - tagcommand: DistanceFromTag
     tag: AtStart
     minDistance: 2
