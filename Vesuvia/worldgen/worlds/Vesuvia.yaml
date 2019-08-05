@@ -15,7 +15,7 @@ layoutMethod: PowerTree # Note: We need to add weights to the items in the layer
 
 # List all the zone files to load
 subworldFiles:
-  - name: subworlds/magma/SandstoneStart
+  - name: subworlds/magma/ForestStart
   - name: subworlds/magma/SandstoneMiniMetal
   - name: subworlds/magma/SandstoneMiniWater
   - name: subworlds/magma/Sandstone
@@ -32,7 +32,7 @@ subworldFiles:
   - name: subworlds/space/SurfaceCrags
     weight: 4
 
-startSubworldName: subworlds/magma/SandstoneStart
+startSubworldName: subworlds/magma/ForestStart
 startingBaseTemplate: sandstoneBase
 
 globalFeatureTemplates:
@@ -46,7 +46,7 @@ unknownCellsAllowedSubworlds:
   - tagcommand: Default
     command: Replace
     subworldNames:
-      - subworlds/magma/SandstoneStart
+      - subworlds/magma/ForestStart
   - tagcommand: DistanceFromTag
     tag: AtStart
     minDistance: 1
